@@ -1,12 +1,12 @@
 function deleteProduct(productId) {
-    // Enviar una solicitud DELETE al servidor para eliminar el producto
+    
     fetch(`http://localhost:3000/products/${productId}`, {
         method: 'DELETE'
     })
     .then(response => {
         if (response.ok) {
             console.log("Producto eliminado exitosamente");
-            // Eliminar el producto del DOM
+            
             let productToRemove = document.getElementById(productId);
             productToRemove.remove();
         } else {

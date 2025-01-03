@@ -10,6 +10,9 @@
     --color-secondary: #5D04D9;
     --color-blue: #03318C;
 }
+.body{
+    background-color: #b5ccf8;
+}
 
 /* Header */
 .header {
@@ -141,7 +144,7 @@ main {
 }
 
 #formContent input {
-    border: 3px solid var(--color-secondary);
+    border: 3px solid var(--color-blue);
     margin-bottom: 30px;
     font-family: var(--secondary-font);
     font-size: 16px;
